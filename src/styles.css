@@ -10,9 +10,11 @@ html {
 #react-root {
   flex: 1;
   background-color: lightblue;
+  padding: 12px;
 }
 
 #js-root {
   flex: 1;
   background-color: lightgray;
+  padding: 12px;
 }
