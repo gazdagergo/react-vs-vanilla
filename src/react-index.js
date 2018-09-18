@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 import "./styles.css";
 
 const Colorize = ({ children, color }) => {
-  return <span style={{ color }}>children</span>;
+  return <span style={{ color }}>{children}</span>;
 };
 
 const App = ({ content }) => {
