@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+import "./styles.css";
 
 const app = function(content) {
   return <span>{content}</span>;
