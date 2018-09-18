@@ -2,9 +2,9 @@ import React from "react";
 import ReactDom from "react-dom";
 import "./styles.css";
 
-const app = function(content) {
-  return <span>{content}</span>;
+const App = function(props) {
+  return <span>{props.content}</span>;
 };
 
 const reactRoot = document.getElementById("react-root");
-ReactDom.render(app("hello react"), reactRoot);
+ReactDom.render(<App content="hello react" />, reactRoot);
